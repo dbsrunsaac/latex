@@ -24,17 +24,15 @@
 			axis lines = middle,
 			xlabel = $x$,
 			ylabel = $y$,
-			domain=-3:3,
+			domain=-3:10,
 			samples=200,
 			legend pos=outer north east,
 			]
 			\addplot[domain=-3:0, thick, red] {x^2}; % función para x <= 0
 			\addplot[domain=0:3, thick, blue] {2*x}; % función para x > 0
+			\addplot[domain=3:10, thick, green]{1};
 			\legend{$x^2$ cuando $x \leq 0$, $2x$ cuando $x > 0$}
 		\end{axis}
 		% Bueno que bendiciòn 
 	\end{tikzpicture}
-	
-	
-	
 \end{document}
