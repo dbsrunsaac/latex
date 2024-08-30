@@ -1,0 +1,5 @@
+# Archivos a ignorar
+*.log
+*.aux
+*.pdf
+*.synctex.gz
